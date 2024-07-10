@@ -14,6 +14,7 @@ Quick bot to post the trophy leaderboard (in a Google spreadsheet) to a specifie
 1. Clone the repository: `git clone https://github.com/Dreary/Frog`
 2. Install dependencies: `pip install discord.py gspread oauth2client wcwidth`
 3. Go to Google Cloud Console and create a [service account](https://console.cloud.google.com/iam-admin/serviceaccounts), 
+
 3b. Once this is done select your user and go to the "keys" tab. You'll see an "Add Key" button, select this and select "Create new key". Check the JSON key type and create, this should download your JSON. You can put this anywhere safe as long as you know where it is.
 4. Head over to the [Discord Developer portal](https://discord.com/developers/applications) and create a new application, the name can be whatever you want.
 5. Go to the 'OAuth2' tab and note down your Client ID.
@@ -23,6 +24,7 @@ Quick bot to post the trophy leaderboard (in a Google spreadsheet) to a specifie
 Replace the "replaceme" text after client_id with your Client ID you wrote down earlier. After this, just enter it in your browser and it should ask if you wish to add the bot to the Discord server.
 
 8. Open your JSON file and copy the e-mail at Line 7 (client_id). 
+
 8b. Then open the Google sheet you added to your Drive earlier -> Top right -> Share, then paste the e-mail you copied from the JSON into the text field at the top, then click Done.
 
 9. Open the bot.py file in your chosen IDE and edit the following lines:
