@@ -16,6 +16,7 @@ Quick bot to post the trophy leaderboard (in a Google spreadsheet) to a specifie
 3. Go to Google Cloud Console and create a [service account](https://console.cloud.google.com/iam-admin/serviceaccounts), 
 
 3b. Once this is done select your user and go to the "keys" tab. You'll see an "Add Key" button, select this and select "Create new key". Check the JSON key type and create, this should download your JSON. You can put this anywhere safe as long as you know where it is.
+
 4. Head over to the [Discord Developer portal](https://discord.com/developers/applications) and create a new application, the name can be whatever you want.
 5. Go to the 'OAuth2' tab and note down your Client ID.
 6. Go to the 'Bot' tab and note down your token.
